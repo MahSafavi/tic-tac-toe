@@ -3,3 +3,9 @@ function openPlayerConfig(){
     backDrop.style.display='block';
 
 }
+
+
+function closePlayerConfig(){
+    playerConfigOverlay.style.display='none';
+    backDrop.style.display='none';
+}
